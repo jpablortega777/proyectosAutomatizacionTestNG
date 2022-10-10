@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="rutaImgTQA" value="./imagenes/toolsqa.png"/>
+    <parameter name="rutaImgML" value="./imagenes/mercadolibre.png"/>
+    <parameter name="noReset" value="true"/>
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="autoGrantPermissions" value="true"/>
+    <parameter name="rutaImgCAL" value="./imagenes/calculadora.png"/>
+    <parameter name="appPackageGoogle" value="com.android.chrome"/>
+    <parameter name="appActivityGoogle" value="com.google.android.apps.chrome.Main"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="9d4056a5"/>
+    <classes>
+      <class name="com.RunTestNG.RunMobileTNG">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="testMercadolibre" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.RunTestNG.RunMobileTNG -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

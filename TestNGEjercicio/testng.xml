@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test name="Test">
+<parameter name="rutaImgML" value="./imagenes/mercadolibre.png"/>
+<parameter name="rutaImgMT" value="./imagenes/mercurytours.png"/>
+<parameter name="rutaImgTQA" value="./imagenes/toolsqa.png"/>
+    <classes>
+      <class name="com.testNG.RunTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

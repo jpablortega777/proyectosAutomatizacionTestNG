@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.RunTestNG.RunMobileTNG">
+        <methods>
+          <include name="testToolsQAWidgets" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="testMercadolibre" invocation-numbers="0"/>
+          <include name="testcalculadora" invocation-numbers="0"/>
+          <include name="testToolsQA" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.RunTestNG.RunMobileTNG -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
